@@ -8,7 +8,7 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ap</groupId>
+	<groupId>com.app</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>app</name>
@@ -61,6 +61,17 @@
 	  <groupId>org.wildfly.swarm</groupId>
 	  <artifactId>bean-validation</artifactId>
 	  <version>1.0.0.Alpha6</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>junit</groupId>
+	  <artifactId>junit</artifactId>
+	  <version>4.10</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>org.testng</groupId>
+	  <artifactId>testng</artifactId>
+	  <version>6.8.1</version>
+	  <scope>test</scope>
 	 </dependency>
 	</dependencies>
 
